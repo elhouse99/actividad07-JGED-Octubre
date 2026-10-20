@@ -19,7 +19,7 @@ namespace actividad07_JGED_Octubre
             InitializeComponent();
             // Configuración de comunicación SERIAL
             ArduinoPort = new SerialPort();
-            ArduinoPort.PortName = "COM7"; // Verificar con la configuración de tu equipo
+            ArduinoPort.PortName = "COM7"; // Verificar con la configuración de tu equipo 
             ArduinoPort.BaudRate = 9600;
             ArduinoPort.Open();
 
